@@ -1,7 +1,7 @@
 {
-    "author": "Geny Herrera",
+    "author": "Geny Isam Hamud Herrera (geny.herrera@gmail.com)",
     "name": "CraigList Search",
-    "version": "1.1",
+    "version": "1.2",
     "manifest_version": 2,
     "description": "This extension allows you to search on CraigList",
     
@@ -23,8 +23,10 @@
     },
     
     "permissions": [
+        "contentSettings",
         "notifications",
-        "tabs"
+        "tabs",
+        "geolocation"
     ]
 
 }

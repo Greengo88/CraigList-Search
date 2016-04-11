@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var queryValue = document.getElementById('query').value;    
             d = document;
             var f = d.createElement('form');
-            f.action = 'http://craigslist.org/search/sss?sort=rel&query='+queryValue;
+            f.action = 'http://miami.craigslist.org/search/sss?sort=rel&query='+queryValue;
             f.method = 'post';
             var i = d.createElement('input');
             i.type = 'hidden';
